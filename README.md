@@ -17,6 +17,10 @@
 ###### ÖRNEK KULLANIM
 >python3 train.py --data "data.txt" --model "model.dat"
 
+#### MODELİ TEST ETME
+> python3 test.py --model model.h5
+
+
 ##### VERİ SETİ OLUŞTURMA
 Veri setini oluştururken gmail'den sadece türkçe mailleri çekebilmek için bazı harfleri içermesini istedik ve ayrıca düzgün bir veri seti oluşturmak için sadece gmail hesabınızda yıldızlanmış olanları almasını sağladık. Böyle yaparak daha düzgün veriler çekmeyi amaçladık.
 ###### Örnek veri çekme kullanımı
