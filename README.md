@@ -18,6 +18,8 @@
 >python3 train.py --data "data.txt" --model "model.dat"
 
 ##### VERİ SETİ OLUŞTURMA
+Veri setini oluştururken gmail'den sadece türkçe mailleri çekebilmek için bazı harfleri içermesini istedik ve ayrıca düzgün bir veri seti oluşturmak için sadece gmail hesabınızda yıldızlanmış olanları almasını sağladık. Böyle yaparak daha düzgün veriler çekmeyi amaçladık.
+###### Örnek veri çekme kullanımı
 > python3 collect_data.py --mail username@gmail.com --sifre mail_sifresi
 ##### VERİ SETİ
 Biz kendi gmail hesaplarımızdan çekilen maillerle eğitim gerçekleştirdik ve verileri diğer maili atan veya alan tarafın izni olmadan paylaşmayı uygun bulmadık. Bu yüzden şu anlık verimizi paylaşamıyoruz.
