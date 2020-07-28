@@ -12,7 +12,7 @@ ap.add_argument("-i", "--data", type=str,
 ap.add_argument("-m", "--model_adi", type=str, default="model.h5",
 	help="modelin kaydedilecek yeri")
 args = vars(ap.parse_args())
-data = open(args["data"],"r",encoding = "windows-1254")
+data = open(args["data"],"r",encoding = "utf-8")
 read_data = data.read()
 data_handler = DataHandler()
 data,label = data_handler.prepare_data(read_data)
