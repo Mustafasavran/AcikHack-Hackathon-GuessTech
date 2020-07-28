@@ -15,6 +15,6 @@
 
  > -m MODEL_ADI, --model_adi MODEL_ADI   eğitilmiş modelin kaydedilecek yeri
  
-Example Usage
+###### Example Usage
 >python3 train.py --data "data.txt" --model "model.dat"
 
