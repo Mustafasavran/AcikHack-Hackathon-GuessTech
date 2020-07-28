@@ -11,7 +11,7 @@ class Vocabulary:
     return: dict:vocabulary dictionary
 
     create vocabulary dictionary"""
-    
+    vocab_file = open("turkish_vocab.txt","w")
     self.vocab = {}
     splited_words = [] 
     i=1
@@ -21,6 +21,7 @@ class Vocabulary:
       splited_words.append(words)
       for word in words:
         if word not in self.vocab:
+          vocab_file.write(word+"\n")
           self.vocab[word] = i
           i+=1
     return self.vocab
