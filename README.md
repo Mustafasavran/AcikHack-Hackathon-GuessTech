@@ -1,4 +1,4 @@
-# GuessTech Sonraki kelime tahmini projesi    ![GuessTech](https://github.com/Mustafasavran/AcikHack-Hackathon-GuessTech/logo.png)
+# GuessTech Sonraki kelime tahmini projesi    ![GuessTech](logo.png)
 
 ### AMAÇ
 Mail yazarken sonraki kelimeyi tahmin ederek kullanıcıya kolaylık sunması.
