@@ -1,4 +1,5 @@
-# GuessTech Sonraki kelime tahmini projesi    ![GuessTech](logo.png)
+![GuessTech](logo.png)
+# GuessTech Sonraki kelime tahmini projesi    
 
 ### AMAÇ
 Mail yazarken sonraki kelimeyi tahmin ederek kullanıcıya kolaylık sunması.
